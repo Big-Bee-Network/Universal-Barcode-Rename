@@ -1,4 +1,4 @@
-# CCBER-Capstone
+# Universal Barcode Image Rename Script
 
 ## Scanner.py
 Scanner is a script that helps read and decode barcodes/datamatrixes. The method uses preprocessing to accurately identify regions where the 
