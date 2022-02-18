@@ -7,8 +7,12 @@ QR/Datamatrix may be. When provided a path to the image folder, the script will 
 The Python libraries required to run the scanner are located in the requirements.txt. To install the packages accordingly, simply use:
 ```
 pip install -r /path/to/requirements.txt
+
+On a Mac, installing the package libdmtx was also required
 ```
 Here is a sample format to run in command prompt:
 ```
-scanner.py "C:\Users\me\bee_project\bee_images"
+scanner.py "C:\Users\me\bee_project\bee_images" on a PC
+
+python3 scanner.py /Users/katjaseltmann/Desktop/01-25-2022/ on a Mac
 ```
